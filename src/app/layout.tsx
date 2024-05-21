@@ -6,7 +6,7 @@ import { fontSans } from "@/utils"
 import { cn } from "@/utils/cn"
 import { Toaster } from "@/components/ui/toaster"
 import { TailwindIndicator, ThemeProvider } from "@/components/common"
-import { AppConstant } from "./const"
+import { AppConstant } from "@/const"
 
 export const metadata: Metadata = {
   title: {

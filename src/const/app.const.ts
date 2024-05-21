@@ -2,7 +2,7 @@
 const APP_URL = process.env.APP_URL || "http://localhost:3000"
 
 const SITE_CONFIG = {
-  name: "Felic.XYZ",
+  name: "Alchemist",
   icon: "/images/favicon.ico",
   url: APP_URL,
   description:
