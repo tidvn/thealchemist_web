@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   },
   description: AppConstant.SITE_CONFIG.description,
   icons: {
-    icon: "/images/favicon.ico",
-    shortcut: "/images/favicon.ico",
-    apple: "/images/favicon.ico",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 }
 
