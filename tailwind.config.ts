@@ -4,10 +4,7 @@ import flowbite from "flowbite-react/tailwind";
 import defaultTheme from "tailwindcss/defaultTheme";
 
 const config: Config = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    flowbite.content(),
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}", flowbite.content()],
   theme: {
     screens: {
       ...defaultTheme.screens,
