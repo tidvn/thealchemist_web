@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import "@/styles/globals.css";
-import { cn, fontSans } from "@/utils";
+import type { Metadata } from 'next';
+import '@/styles/globals.css';
+import { cn, fontSans } from '@/utils';
 
 export const metadata: Metadata = {
-  title: "TheAlchemist",
-  description: "Alchemist All For Traders",
+  title: 'TheAlchemist',
+  description: 'Alchemist All For Traders',
 };
 
 export default function RootLayout({
@@ -13,13 +13,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang='en' suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          'min-h-screen bg-background font-sans antialiased',
           fontSans.variable
         )}
-      >        {children}
+      >
+        {' '}
+        {children}
       </body>
     </html>
   );
