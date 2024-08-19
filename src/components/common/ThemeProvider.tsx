@@ -1,9 +1,10 @@
 "use client";
 import { Flowbite } from "flowbite-react";
-import theme from "@/theme";
-import AOSProvider from "./AOS/AOSProvider";
 import { ParallaxProvider } from "react-scroll-parallax";
-import "atropos/css";
+import "flowbite";
+import theme from "@/theme";
+
+
 
 const ThemeProvider = ({
   children,
@@ -12,13 +13,11 @@ const ThemeProvider = ({
 }>) => {
   return (
     <>
-      <AOSProvider>
-        <ParallaxProvider>
-          <Flowbite theme={{ theme }}>
-            {children}
-          </Flowbite>
-        </ParallaxProvider>
-      </AOSProvider>
+      <ParallaxProvider>
+        <Flowbite theme={{ theme:theme }}>
+          {children}
+        </Flowbite>
+      </ParallaxProvider>
     </>)
 };
 

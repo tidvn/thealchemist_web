@@ -40,7 +40,7 @@ const theme = {
       },
     },
     radio: {
-      base: "h-4 w-4 border border-2 border-neutral2 focus:ring-2 focus:ring-blue-500",
+      base: "h-4 w-4 border-2 border-neutral2 focus:ring-2 focus:ring-blue-500",
     },
   },
 
@@ -48,7 +48,7 @@ const theme = {
     inner:
       "rounded-lg h-full lg:h-[648px] overflow-y-auto overflow-x-hidden bg-[#1A1A1A] p-5 md:px-[28px] md:pt-[60px] text-neutral6",
     item: {
-      base: "h-[48px] flex items-center justify-center rounded-lg p-2 mt-6 text-base text-neutral6 hover:bg-[#333333] rounded-lg",
+      base: "h-[48px] flex items-center justify-center rounded-lg p-2 mt-6 text-base text-neutral6 hover:bg-[#333333]",
       active: "bg-[#333333] font-bold",
     },
   },

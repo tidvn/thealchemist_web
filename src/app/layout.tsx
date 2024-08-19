@@ -2,7 +2,6 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import ThemeProvider from "@/components/common/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
-import "flowbite";
 
 export default function RootLayout({
   children,
@@ -13,7 +12,9 @@ export default function RootLayout({
     <html lang="en">
       <title>The Alchemist</title>
       <body className={inter.className}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
